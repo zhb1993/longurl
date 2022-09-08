@@ -12,3 +12,10 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
     type: com.zaxxer.hikari.HikariDataSource
+
+  redis:
+    host: 47.105.123.110
+    database: 5
+    password: zhb1993
+    port: 5555
+    ssl: false
